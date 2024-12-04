@@ -1,0 +1,162 @@
+.button {
+    padding: 2px 12px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+body {
+    background-color: aqua;
+}
+.headstuff {
+    text-align: right;
+    font-family: "04b";
+    color: orangered;
+    font-size: xx-large;
+}
+.artworkstuff {
+    height: 80%;
+    width: 80%;
+}
+.tablewhole {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+.tablestuff {
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    background-color: azure;
+    padding: 10px;
+}
+.thumbnail {
+    width: 300px; 
+    height: 200px; 
+    outline: 3px solid black; 
+    outline-offset: 5px; 
+    border-radius: 3px;
+}
+.thumbnail_out{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.ArtworkCategory {
+    text-align: center;
+    font-family: "04B";
+    color: orangered;
+}
+.ArtworkCenter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 1s;
+}
+.ArtworkExplanation{
+    text-align: center;
+    font-size: large;
+    font-family: "DigiG";
+    padding-bottom: 20px;
+}
+.AboutStuff {
+    display: flex; 
+    justify-content: flex-start; 
+    padding-top: 60px;
+    padding-left: 40px;
+    animation: fadeIn 1s;
+}
+@font-face {
+    font-family: "04B";
+    src: url(04B_30__.TTF);
+}
+@font-face {
+    font-family: "DigiG";
+    src: url(KernelPanicNbp-LyG3.ttf);
+}
+@font-face {
+    font-family: "King";
+    src: url(KingsmanDemo-1GVgg.ttf);
+}
+.bodystuff {
+    text-align: right;
+    padding-left: 80px;
+    font-family: "DigiG";
+    font-size: larger;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.ResumeStuff {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.Diploma {
+    animation: fadeIn 1s;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    outline: 3px solid black; 
+    outline-offset: 5px; 
+    border-radius: 3px;
+    text-align: center;
+}
+.DiplomaTitle {
+    animation: fadeIn 2s;
+    font-family: "King";
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: xx-large;
+}
+.background {
+    background-image: url("images/Background.png");
+    height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.background2 {
+    background-image: url("images/Background2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-bottom: 30px;
+}
+.wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ContactHead{
+    padding-left: 33%;
+    padding-right: 33%;
+    text-align: center;
+    font-family: "04B";
+    color: orangered;
+    animation: fadeIn 1s;
+}
+.ContactStuff {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "DigiG";
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 2s;
+}
+.fullimage{
+    width: 100%;
+    height: 100%;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
